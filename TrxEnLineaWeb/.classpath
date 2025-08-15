@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="JavaSource"/>
+    <classpathentry exported="true" kind="lib"
+        path="WebContent/WEB-INF/lib/POSWebUtils.jar" sourcepath="C:/F/D/ASIC/Proyectos/productos/TrxOnLineBase/POSWebUtils/src"/>
+    <classpathentry kind="src" path="/TrxEnLineaFramework"/>
+    <classpathentry kind="var" path="SERVERJDK_PLUGINDIR/jre/lib/rt.jar" sourcepath="SERVERJDK_PLUGINDIR/src.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/j2ee.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/webcontainer.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/ivjejb35.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/websphere.jar"/>
+    <classpathentry kind="src" path="/TrxEnLineaBusinessLogic"/>
+    <classpathentry kind="src" path="/TrxEnLineaDelegateImp"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-validator.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/db2jcc.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jwaf.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-digester.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-page.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jstl.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-session.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jt400.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbutils-1.1-dev.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/struts.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-string.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jakarta-oro.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/standard.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/dbbeans.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/saxpath.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-application.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-datetime.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/i18n.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/db2jcc_license_cu.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/utility.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-response.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-mailer.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-request.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jspsql.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxen-full.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/aut_mng_utils.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/aut_mng.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/asic_obj.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/asic-web.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/jdao.jar"/>
+    <classpathentry kind="lib" path="WebContent/WEB-INF/lib/ojdbc7.jar"/>
+    <classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>

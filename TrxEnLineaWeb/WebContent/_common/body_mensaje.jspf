@@ -1,0 +1,49 @@
+<%-- VisaWeb:  $Id: body_mensaje.jspf,v 1.1 2019/12/18 17:30:55 Alfonso Exp $ --%>
+<%@taglib uri="/WEB-INF/asic.tld" prefix="asic"%>
+<%@taglib uri="/WEB-INF/struts-logic.tld" prefix="logic"%>
+<%@page import="org.ramm.jwaf.controller.flow.Message"%>
+
+<%
+	Message mensaje = request.getParameter("mensaje");
+%>
+
+
+<link rel="stylesheet" type="text/css" href="../theme/blue.css">
+<BR/><BR/><BR/>
+<p/>
+ <TABLE border=0 cellPadding=0 cellSpacing=0 width=500>
+  <tr>
+    <td valign="middle">
+	<%--    	<logic:notEmpty name="mensaje" scope="request"> --%>
+             <asic:table width="300" titulo="" >
+                  	<jsp:useBean id="mensaje" class="org.ramm.jwaf.controller.flow.Message" scope="request">
+                   	</jsp:useBean> 
+					<tr class="estiloAlterno">
+						<TD align="center"><jsp:getProperty name="mensaje" property="title"/></TD>
+					</TR> 
+					<tr class="mensaje">
+						<TD><jsp:getProperty name="mensaje" property="description" /></TD>
+					</TR> 
+					<%--
+					<% if ( hallo == null ){ %>
+						<tr class="mensaje">
+							<TD>mensaje nulo</TD>
+						</TR>
+					<%}%>
+					<% else if ( hallo != null && !hallo.getDescription().equals("")){ %>
+						<tr class="mensaje">						
+							<TD>mensaje not null!! ___ <%=hallo.getDescription()%></TD>
+						</TR>
+					<%}%>
+					--%>
+					
+					<% if ( mensaje!=null && mensaje.isErrorMessage() && mensaje.getDescription() != null ){ %>
+					<tr class="mensaje">						
+						<TD>Excepción4:<%=null%></TD>
+					</TR>
+					<%}%>
+	         </asic:table>
+       <%--  </logic:notEmpty> --%> 
+	</td>
+  </tr>
+</table>

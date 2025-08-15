@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+<!-- Definitions for Tiles  -->
+<!-- 
+  This file contains definitions common to all struts module.
+  In particular, it contains the main layout and the common menus.
+  There is also the main page as a portal.
+-->
+<tiles-definitions>
+  <!-- =======================================================  -->
+  <!-- Master definition  										-->
+  <!-- =======================================================  -->
+	<definition name="baseDef" path="/_layouts/center_layout.jsp">
+		<put name="title"  value="Template" />
+        <put name="header" value="/_common/header_ppal.jspf"/>
+    	<put name="headerMensaje" value="/_common/body_mensaje.jsp"/>
+		<put name="panel" value="/_common/blank.jsp"/>  
+		<put name="menu"   value="/_common/blank.jsp"/>  
+        <put name="body"   value="_common/blank.jsp"/>
+        <put name="footer" value="/_common/footer_ppal.jspf"/>
+   </definition> 
+
+	<definition name="areasDef" extends="baseDef">
+		<put name="menu"   value="/_common/blank.jsp"/>
+        <put name="header" value="/_common/header_ppal.jspf"/>
+   </definition>
+   
+   
+   <definition name="areasDefListado" extends="baseDef">
+		<put name="menu"  value="/_common/menu_areas_listado.jsp" />
+        <put name="header" value="/_common/header_areas.jsp"/>
+   </definition>
+   
+   <definition name="areasDefListados" extends="baseDef">
+		<put name="menu"  value="/_common/menu_areas_listados.jsp" />
+        <put name="header" value="/_common/header_areas.jsp"/>
+   </definition>
+   
+   
+   <definition name="areasDefBienvenida" extends="baseDef">
+		<put name="menu"  value="/_common/menu_areas_bienvenida.jsp" />
+        <put name="header" value="/_common/header_bienvenida.jsp"/>
+   </definition>
+
+    <definition name="welcome.bienvenida" extends="areasDefBienvenida">
+		<put name="title"  value="Bienvenido al Sistema de administración de Usuarios" />
+        <put name="body" value="/welcome/body_bienvenida.jsp"/>
+        <put name="menu"  value="/_common/menu_areas_bienvenida.jsp" />
+    </definition>
+ 
+	  <definition name="welcome.redirect" extends="baseDef">
+		<put name="title"  value="Ingreso al sistema" />
+		<put name="header" value="/_common/header_login.jsp"/>
+        <put name="body" value="/welcome/body_redirect.jsp"/>
+   </definition>
+ 
+   <definition name="welcome.login" extends="baseDef">
+		<put name="title"  value="Ingreso al sistema" />
+		<put name="header" value="/_common/header_login.jsp"/>
+        <put name="body" value="/welcome/login.jsp"/>
+   </definition>
+   <definition name="welcome.opener" extends="baseDef">
+		<put name="title"  value="Ingreso al sistema" />
+		<put name="header" value="/_common/header_login.jsp"/>
+        <put name="body" value="/welcome/opener.jsp"/>
+   </definition>
+   <definition name="welcome.close" extends="baseDef">
+		<put name="title"  value="Salir del sistema" />
+		<put name="header" value="/_common/header_login.jsp"/>
+        <put name="body" value="/welcome/close.html"/>
+   </definition>
+   <definition name="common.mensaje" extends="areasDef">
+		<put name="title"  value="Mensaje" />
+        <put name="body" value="/_common/body_mensaje.jsp"/>
+   </definition>  
+   <definition name="t_admin_usuario.crear_usuario" extends="areasDef">
+		<put name="title"  value="Creación de un Usuario" />
+        <put name="body" value="/admin_usuario/body_crear_usuario.jsp"/>
+   </definition>
+	<definition name="t_reportes.reportes_trxs">
+		<put name="body" value="/reportes/body_reporte_trxs.jsp"></put>
+	</definition>
+
+
+</tiles-definitions>

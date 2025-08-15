@@ -1,0 +1,657 @@
+ALTER TABLE tx_header DROP CONSTRAINT FK_REC_HEAD;
+
+ALTER TABLE tx_rechazo DROP CONSTRAINT PK_RECHAZO;
+
+ALTER TABLE tx_discount DROP CONSTRAINT FK_REC_DISC;
+
+ALTER TABLE tx_tender DROP CONSTRAINT FK_REC_TENDER;
+
+ALTER TABLE tx_itementry DROP CONSTRAINT FK_REC_ITEM_EN;
+
+ALTER TABLE tx_data_entry DROP CONSTRAINT FK_REC_DAT;
+
+ALTER TABLE tx_tax DROP CONSTRAINT FK_REC_TAX;
+
+ALTER TABLE tx_manager_override DROP CONSTRAINT FK_REC_MANAG;
+
+ALTER TABLE tx_price_change DROP CONSTRAINT FK_REC_PRICE;
+
+ALTER TABLE tx_till_change DROP CONSTRAINT FK_REC_TILL;
+
+ALTER TABLE tx_item_record_change DROP CONSTRAINT FK_REC_ITEM_RE;
+
+ALTER TABLE tx_trading_stamps DROP CONSTRAINT FK_REC_TRAD;
+
+ALTER TABLE tx_exception_log DROP CONSTRAINT FK_REC_EXCE;
+
+ALTER TABLE tx_store_closing DROP CONSTRAINT FK_REC_STORE;
+
+ALTER TABLE tx_operator_training DROP CONSTRAINT FK_REC_OPER;
+
+ALTER TABLE tx_user_data DROP CONSTRAINT FK_REC__USER;
+
+ALTER TABLE tx_param_sist DROP CONSTRAINT PK_PARAM_SIS;
+
+ALTER TABLE tx_email_cfg DROP CONSTRAINT PK_EMAL_CFG;
+
+ALTER TABLE tx_proceso DROP CONSTRAINT PRC_PK;
+
+DROP TABLE tx_proceso;
+
+DROP TABLE tx_header;
+
+DROP TABLE tx_rechazo;
+
+DROP TABLE tx_discount;
+
+DROP TABLE tx_tender;
+
+DROP TABLE tx_itementry;
+
+DROP TABLE tx_data_entry;
+
+DROP TABLE tx_tax;
+
+DROP TABLE tx_manager_override;
+
+DROP TABLE tx_price_change;
+
+DROP TABLE tx_till_change;
+
+DROP TABLE tx_item_record_change;
+
+DROP TABLE tx_trading_stamps;
+
+DROP TABLE tx_exception_log;
+
+DROP TABLE tx_store_closing;
+
+DROP TABLE tx_operator_training;
+
+DROP TABLE tx_user_data;
+
+DROP TABLE tx_param_sist;
+
+DROP TABLE tx_email_cfg;
+
+CREATE TABLE tx_header (
+	offsety VARCHAR2 ( 4 ),
+	offsetx VARCHAR2 ( 4 ),
+	store VARCHAR2 ( 4 ),
+	terminal VARCHAR2 ( 4 ),
+	transnum VARCHAR2 ( 4 ),
+	day VARCHAR2 ( 10 ),
+	time VARCHAR2 ( 8 ),
+	transtype VARCHAR2 ( 2 ),
+	numstrin VARCHAR2 ( 4 ),
+	operator VARCHAR2 ( 10 ),
+	password VARCHAR2 ( 8 ),
+	grosspos VARCHAR2 ( 8 ),
+	grossneg VARCHAR2 ( 8 ),
+	ringtime VARCHAR2 ( 8 ),
+	tenderti VARCHAR2 ( 8 ),
+	special VARCHAR2 ( 8 ),
+	inactive VARCHAR2 ( 8 ),
+	indicat11 VARCHAR2 ( 1 ),
+	indicat12 VARCHAR2 ( 1 ),
+	indicat13 VARCHAR2 ( 1 ),
+	indicat14 VARCHAR2 ( 1 ),
+	indicat15 VARCHAR2 ( 1 ),
+	indicat16 VARCHAR2 ( 1 ),
+	indicat17 VARCHAR2 ( 1 ),
+	indicat18 VARCHAR2 ( 1 ),
+	indicat19 VARCHAR2 ( 1 ),
+	indicat110 VARCHAR2 ( 1 ),
+	indicat111 VARCHAR2 ( 1 ),
+	indicat112 VARCHAR2 ( 1 ),
+	indicat113 VARCHAR2 ( 1 ),
+	indicat114 VARCHAR2 ( 1 ),
+	indicat115 VARCHAR2 ( 1 ),
+	indicat116 VARCHAR2 ( 1 ),
+	indicat117 VARCHAR2 ( 1 ),
+	indicat118 VARCHAR2 ( 1 ),
+	indicat119 VARCHAR2 ( 1 ),
+	indicat120 VARCHAR2 ( 1 ),
+	indicat121 VARCHAR2 ( 1 ),
+	indicat122 VARCHAR2 ( 1 ),
+	indicat123 VARCHAR2 ( 1 ),
+	indicat124 VARCHAR2 ( 1 ),
+	indicat125 VARCHAR2 ( 1 ),
+	indicat126 VARCHAR2 ( 1 ),
+	indicat127 VARCHAR2 ( 1 ),
+	indicat128 VARCHAR2 ( 1 ),
+	indicat129 VARCHAR2 ( 1 ),
+	indicat130 VARCHAR2 ( 1 ),
+	indicat131 VARCHAR2 ( 1 ),
+	indicat132 VARCHAR2 ( 1 ),
+	tipo VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_rechazo (
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL,
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ) ,
+	TRANSNUM VARCHAR2 ( 4 ) ,
+	DAY VARCHAR2 ( 10 ) ,
+	TIME VARCHAR2 ( 8 ) ,
+	ESTADO VARCHAR2 ( 1 ) ,
+	ERROR VARCHAR2 ( 4000 ),
+	COMENTARIO VARCHAR2 ( 500 ),
+	OFFSETX VARCHAR2 ( 2003 ),
+	AUDI_CREA VARCHAR2 ( 20 ) NOT NULL,
+	AUDI_FHCREA DATE NOT NULL,
+	AUDI_MOD VARCHAR2 ( 20 ),
+	AUDI_FHMOD DATE
+	);
+
+CREATE TABLE tx_discount (
+	offsety VARCHAR2 ( 4 ),
+	offsetx VARCHAR2 ( 4 ),
+	store VARCHAR2 ( 4 ),
+	terminal VARCHAR2 ( 4 ),
+	transnum VARCHAR2 ( 4 ),
+	day VARCHAR2 ( 10 ),
+	time VARCHAR2 ( 8 ),
+	type VARCHAR2 ( 4 ),
+	disgroup VARCHAR2 ( 4 ),
+	disrate VARCHAR2 ( 4 ),
+	amtdisco VARCHAR2 ( 8 ),
+	taxexemp VARCHAR2 ( 8 ),
+	tipo VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_tender (
+	offsety VARCHAR2 ( 4 ),
+	offsetx VARCHAR2 ( 4 ),
+	store VARCHAR2 ( 4 ),
+	terminal VARCHAR2 ( 4 ),
+	transnum VARCHAR2 ( 4 ),
+	day VARCHAR2 ( 8 ),
+	time VARCHAR2 ( 10 ),
+	type VARCHAR2 ( 2 ),
+	tendtype VARCHAR2 ( 4 ),
+	amttende VARCHAR2 ( 8 ),
+	amttnfee VARCHAR2 ( 2 ),
+	customer VARCHAR2 ( 24 ),
+	status VARCHAR2 ( 2 ),
+	tipo VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_itementry (
+	offsety VARCHAR2 ( 4 ),
+	offsetx VARCHAR2 ( 4 ),
+	store VARCHAR2 ( 4 ),
+	terminal VARCHAR2 ( 4 ),
+	transnum VARCHAR2 ( 4 ),
+	day VARCHAR2 ( 10 ),
+	time VARCHAR2 ( 8 ),
+	itemcode VARCHAR2 ( 12 ),
+	xprice VARCHAR2 ( 8 ),
+	departme VARCHAR2 ( 4 ),
+	familynu1 VARCHAR2 ( 3 ),
+	familynu2 VARCHAR2 ( 3 ),
+	indicat11 VARCHAR2 ( 1 ),
+	indicat12 VARCHAR2 ( 1 ),
+	indicat13 VARCHAR2 ( 1 ),
+	indicat14 VARCHAR2 ( 1 ),
+	indicat15 VARCHAR2 ( 1 ),
+	indicat16 VARCHAR2 ( 1 ),
+	indicat17 VARCHAR2 ( 1 ),
+	indicat18 VARCHAR2 ( 1 ),
+	indicat19 VARCHAR2 ( 1 ),
+	indicat110 VARCHAR2 ( 1 ),
+	indicat111 VARCHAR2 ( 1 ),
+	indicat112 VARCHAR2 ( 1 ),
+	indicat113 VARCHAR2 ( 1 ),
+	indicat114 VARCHAR2 ( 1 ),
+	indicat115 VARCHAR2 ( 1 ),
+	indicat116 VARCHAR2 ( 1 ),
+	indicat21 VARCHAR2 ( 1 ),
+	indicat22 VARCHAR2 ( 1 ),
+	indicat23 VARCHAR2 ( 1 ),
+	indicat24 VARCHAR2 ( 1 ),
+	indicat25 VARCHAR2 ( 1 ),
+	indicat26 VARCHAR2 ( 1 ),
+	indicat27 VARCHAR2 ( 1 ),
+	indicat28 VARCHAR2 ( 1 ),
+	indicat29 VARCHAR2 ( 1 ),
+	indicat210 VARCHAR2 ( 1 ),
+	indicat211 VARCHAR2 ( 1 ),
+	indicat212 VARCHAR2 ( 1 ),
+	indicat213 VARCHAR2 ( 1 ),
+	indicat214 VARCHAR2 ( 1 ),
+	indicat215 VARCHAR2 ( 1 ),
+	indicat216 VARCHAR2 ( 1 ),
+	indicat31 VARCHAR2 ( 1 ),
+	indicat32 VARCHAR2 ( 1 ),
+	mpgroup VARCHAR2 ( 2 ),
+	dealquan VARCHAR2 ( 8 ),
+	pricemth VARCHAR2 ( 2 ),
+	salequan VARCHAR2 ( 2 ),
+	saleprice VARCHAR2 ( 10 ),
+	qtyorwgt VARCHAR2 ( 11 ),
+	indicat41 VARCHAR2 ( 1 ),
+	indicat42 VARCHAR2 ( 1 ),
+	indicat43 VARCHAR2 ( 1 ),
+	indicat44 VARCHAR2 ( 1 ),
+	indicat45 VARCHAR2 ( 1 ),
+	indicat46 VARCHAR2 ( 1 ),
+	indicat47 VARCHAR2 ( 1 ),
+	indicat48 VARCHAR2 ( 1 ),
+	prciva VARCHAR2 ( 6 ),
+	tipo VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_data_entry (
+	offsety VARCHAR2 ( 4 ),
+	offsetx VARCHAR2 ( 4 ),
+	store VARCHAR2 ( 4 ),
+	terminal VARCHAR2 ( 4 ),
+	transnum VARCHAR2 ( 4 ),
+	day VARCHAR2 ( 10 ),
+	time VARCHAR2 ( 8 ),
+	data1 VARCHAR2 ( 40 ),
+	data2 VARCHAR2 ( 40 ),
+	data3 VARCHAR2 ( 40 ),
+	data4 VARCHAR2 ( 40 ),
+	data5 VARCHAR2 ( 40 ),
+	data6 VARCHAR2 ( 40 ),
+	tipo VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_tax (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	TYPE VARCHAR2 ( 2 ),
+	AMTTAXA VARCHAR2 ( 8 ),
+	AMTTAXB VARCHAR2 ( 8 ),
+	AMTTAXC VARCHAR2 ( 8 ),
+	AMTTAXD VARCHAR2 ( 8 ),
+	AMTTAXLEA VARCHAR2 ( 8 ),
+	AMTTAXLEB VARCHAR2 ( 8 ),
+	AMTTAXLEC VARCHAR2 ( 8 ),
+	AMTTAXLED VARCHAR2 ( 8 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_manager_override (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	OVERRIDE VARCHAR2 ( 14 ),
+	REASON VARCHAR2 ( 30 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_price_change (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	ITEMCODE VARCHAR2 ( 12 ),
+	NEWDEALQ VARCHAR2 ( 2 ),
+	NEWPRICE VARCHAR2 ( 10 ),
+	OLDDEALQ VARCHAR2 ( 2 ),
+	OLDPRICE VARCHAR2 ( 10 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_till_change (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	NUMBERLOANS VARCHAR2 ( 4 ),
+	AMTLOANS VARCHAR2 ( 8 ),
+	NUMBERPKUPS VARCHAR2 ( 4 ),
+	AMTPKUPS VARCHAR2 ( 8 ),
+	TENDTYP11 VARCHAR2 ( 2 ),
+	AMTTEND11 VARCHAR2 ( 8 ),
+	TENDTYP12 VARCHAR2 ( 2 ),
+	AMTTEND12 VARCHAR2 ( 8 ),
+	TENDTYP13 VARCHAR2 ( 2 ),
+	AMTTEND13 VARCHAR2 ( 8 ),
+	TENDTYP14 VARCHAR2 ( 2 ),
+	AMTTEND14 VARCHAR2 ( 8 ),
+	TENDTYP15 VARCHAR2 ( 2 ),
+	AMTTEND15 VARCHAR2 ( 8 ),
+	TENDTYP16 VARCHAR2 ( 2 ),
+	AMTTEND16 VARCHAR2 ( 8 ),
+	TENDTYP17 VARCHAR2 ( 2 ),
+	AMTTEND17 VARCHAR2 ( 8 ),
+	TENDTYP18 VARCHAR2 ( 2 ),
+	AMTTEND18 VARCHAR2 ( 8 ),
+	TENDTYP21 VARCHAR2 ( 2 ),
+	AMTTEND21 VARCHAR2 ( 8 ),
+	TENDTYP22 VARCHAR2 ( 2 ),
+	AMTTEND22 VARCHAR2 ( 8 ),
+	TENDTYP23 VARCHAR2 ( 2 ),
+	AMTTEND23 VARCHAR2 ( 8 ),
+	TENDTYP24 VARCHAR2 ( 2 ),
+	AMTTEND24 VARCHAR2 ( 8 ),
+	TENDTYP25 VARCHAR2 ( 2 ),
+	AMTTEND25 VARCHAR2 ( 8 ),
+	TENDTYP26 VARCHAR2 ( 2 ),
+	AMTTEND26 VARCHAR2 ( 8 ),
+	TENDTYP27 VARCHAR2 ( 2 ),
+	AMTTEND27 VARCHAR2 ( 8 ),
+	TENDTYP28 VARCHAR2 ( 2 ),
+	AMTTEND28 VARCHAR2 ( 8 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_item_record_change (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 5 ),
+	OLDDATA VARCHAR2 ( 100 ),
+	NEWDATA VARCHAR2 ( 100 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_trading_stamps (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	STAMPS VARCHAR2 ( 8 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_exception_log (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	LOGDATA VARCHAR2 ( 30 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_store_closing (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	INDICAT2 VARCHAR2 ( 2 ),
+	FECHAHORA VARCHAR2 ( 10 ),
+	TIPO VARCHAR2 ( 1 ),
+	STORE VARCHAR2 ( 4 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_operator_training (
+	OFFSETY VARCHAR2 ( 4 ),
+	OFFSETX VARCHAR2 ( 4 ),
+	STORE VARCHAR2 ( 4 ),
+	TERMINAL VARCHAR2 ( 4 ),
+	TRANSNUM VARCHAR2 ( 4 ),
+	DAY VARCHAR2 ( 10 ),
+	TIME VARCHAR2 ( 8 ),
+	DATA1 VARCHAR2 ( 10 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 )
+	);
+
+CREATE TABLE tx_user_data (
+	offsety VARCHAR2 ( 4 ),
+	offsetx VARCHAR2 ( 4 ),
+	store VARCHAR2 ( 4 ),
+	terminal VARCHAR2 ( 4 ),
+	transnum VARCHAR2 ( 4 ),
+	day VARCHAR2 ( 10 ),
+	time VARCHAR2 ( 8 ),
+	type VARCHAR2 ( 8 ),
+	data1 VARCHAR2 ( 50 ),
+	data2 VARCHAR2 ( 50 ),
+	data3 VARCHAR2 ( 50 ),
+	data4 VARCHAR2 ( 50 ),
+	data5 VARCHAR2 ( 50 ),
+	data6 VARCHAR2 ( 50 ),
+	data7 VARCHAR2 ( 50 ),
+	data8 VARCHAR2 ( 50 ),
+	data9 VARCHAR2 ( 50 ),
+	data10 VARCHAR2 ( 50 ),
+	data11 VARCHAR2 ( 50 ),
+	data12 VARCHAR2 ( 50 ),
+	data13 VARCHAR2 ( 50 ),
+	data14 VARCHAR2 ( 50 ),
+	data15 VARCHAR2 ( 50 ),
+	data16 VARCHAR2 ( 50 ),
+	data17 VARCHAR2 ( 50 ),
+	data18 VARCHAR2 ( 50 ),
+	data19 VARCHAR2 ( 50 ),
+	data20 VARCHAR2 ( 50 ),
+	TIPO VARCHAR2 ( 1 ),
+	ID_RECHAZO NUMBER ( 10 ) NOT NULL
+	);
+
+CREATE TABLE tx_param_sist (
+	param_id NUMBER ( 5 ) NOT NULL,
+	param_desc VARCHAR2 ( 50 ) NOT NULL,
+	param_vlr VARCHAR2 ( 200 ) NOT NULL
+	);
+
+CREATE TABLE tx_email_cfg (
+	email_id NUMBER ( 10 ) NOT NULL,
+	email_txt VARCHAR2 ( 2000 ) NOT NULL,
+	email_asunto VARCHAR2 ( 200 ) NOT NULL,
+	email_destino VARCHAR2 ( 500 ) NOT NULL
+	);
+
+CREATE TABLE tx_proceso (
+	PROC_ID NUMBER ( 5 ) NOT NULL,
+	PROC_DESC VARCHAR2 ( 100 ),
+	PROC_ESTADO VARCHAR2 ( 1 ) NOT NULL,
+	AUDI_CREA VARCHAR2 ( 20 ) NOT NULL,
+	AUDI_FHCREA DATE NOT NULL,
+	AUDI_MOD VARCHAR2 ( 20 ),
+	AUDI_FHMOD DATE
+	);
+
+ALTER TABLE tx_rechazo
+	ADD CONSTRAINT PK_RECHAZO PRIMARY KEY (
+		ID_RECHAZO
+		);
+
+ALTER TABLE tx_param_sist
+	ADD CONSTRAINT PK_PARAM_SIS PRIMARY KEY (
+		param_id
+		);
+
+ALTER TABLE tx_email_cfg
+	ADD CONSTRAINT PK_EMAL_CFG PRIMARY KEY (
+		email_id
+		);
+
+ALTER TABLE tx_header
+	ADD ( CONSTRAINT FK_REC_HEAD FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_discount
+	ADD ( CONSTRAINT FK_REC_DISC FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_tender
+	ADD ( CONSTRAINT FK_REC_TENDER FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_itementry
+	ADD ( CONSTRAINT FK_REC_ITEM_EN FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_data_entry
+	ADD ( CONSTRAINT FK_REC_DAT FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_tax
+	ADD ( CONSTRAINT FK_REC_TAX FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_manager_override
+	ADD ( CONSTRAINT FK_REC_MANAG FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_price_change
+	ADD ( CONSTRAINT FK_REC_PRICE FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_till_change
+	ADD ( CONSTRAINT FK_REC_TILL FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_item_record_change
+	ADD ( CONSTRAINT FK_REC_ITEM_RE FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_trading_stamps
+	ADD ( CONSTRAINT FK_REC_TRAD FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_exception_log
+	ADD ( CONSTRAINT FK_REC_EXCE FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_store_closing
+	ADD ( CONSTRAINT FK_REC_STORE FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_operator_training
+	ADD ( CONSTRAINT FK_REC_OPER FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	);
+
+ALTER TABLE tx_user_data
+	ADD ( CONSTRAINT FK_REC__USER FOREIGN KEY (
+		ID_RECHAZO
+		)
+	REFERENCES tx_rechazo (
+		ID_RECHAZO
+		)
+	ON DELETE CASCADE
+	);
+
+ALTER TABLE tx_proceso
+	ADD CONSTRAINT PRC_PK PRIMARY KEY (
+		PROC_ID
+		);

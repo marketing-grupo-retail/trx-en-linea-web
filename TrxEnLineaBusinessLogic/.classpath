@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="source"/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="src" path="junit"/>
+    <classpathentry exported="true" kind="src" path="/TrxEnLineaFramework"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/messagingClient.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/com.ibm.mq.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/com.ibm.mqjms.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/fscontext.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/providerutil.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/activation.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/mail.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/Notes.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/j2ee-1.3/j2ee.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/junit-3.8.1/junit.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/asic-web/asic-web.jar"/>
+    <classpathentry kind="lib" path="/TrxEnLineaLibs/jwaf/jwaf.jar"/>
+    <classpathentry kind="lib"
+        path="/TrxEnLineaWeb/WebContent/WEB-INF/lib/POSWebUtils.jar" sourcepath="C:/F/D/ASIC/Proyectos/productos/TrxOnLineBase/POSWebUtils/src"/>
+    <classpathentry kind="lib" path="/TrxEnLineaWeb/WebContent/WEB-INF/lib/asic_obj.jar"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,34 @@
+CREATE OR REPLACE FUNCTION get_bal (acc_no IN NUMBER)
+  RETURN NUMBER
+   IS
+       acc_bal NUMBER(11,2);    
+BEGIN
+     SELECT count(*) INTO acc_bal FROM trx_linea.tpos_header;
+          
+       RETURN(acc_bal);
+END;
+/
+
+CREATE OR REPLACE PROCEDURE DividirString1199 ( fecha IN DATE, almacen IN NUMBER, terminal IN NUMBER, transaccion IN NUMBER, codigoproducto IN NUMBER, tipo IN VARCHAR2)
+AS BEGIN
+	null;
+END DividirString1199;
+/
+
+CREATE OR REPLACE PROCEDURE LlenarVentaDetallada ( fecha IN DATE, almacen IN NUMBER, terminal IN NUMBER, transaccion IN NUMBER, codigoproducto IN NUMBER, tipo IN VARCHAR2)
+AS BEGIN
+	null;
+END LlenarVentaDetallada;
+/
+
+CREATE OR REPLACE FUNCTION ComparaVentasMediosdePago (fecha IN DATE, almacen IN NUMBER, terminal IN NUMBER, transaccion IN NUMBER, mensaje OUT VARCHAR2)
+  RETURN NUMBER
+   IS
+       acc_bal NUMBER(11,2);    
+BEGIN
+		SELECT count(*) INTO acc_bal FROM trx_linea.tpos_header;
+     	mensaje:=TO_CHAR(acc_bal);
+          
+       RETURN(0);
+END;
+/

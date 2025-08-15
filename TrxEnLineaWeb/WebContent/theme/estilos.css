@@ -1,0 +1,617 @@
+.1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+	text-align: justify;
+}
+.2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	text-align: justify;
+	font-weight: bold;
+}
+.3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #663300;
+	text-align: left;
+}
+.TitulosPlanos {
+	font-family: Arial, Helvetica, sans-serif, "Courier New";
+	font-size: x-small;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url("../images/corner.gif");
+	background-repeat: no-repeat;
+	height: 24px;
+	vertical-align: middle;
+	
+}
+.Triangle2 {
+	background-image: url("../images/corner2.gif");
+	background-repeat: no-repeat;
+	height: 10px;
+}
+
+
+.Total {
+	font-weight: 700;
+	border:  0px;
+}
+.TitularesItem {
+
+	font-family: "Courier New", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+}
+.TitularesBlancos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.TitulosPagina {
+	font-family: Arial, Helvetica, sans-serif, "Courier New";
+	font-size: 13px;
+	font-weight: bold;
+	color: #003366;
+}
+.linksBlancos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.linksAzules {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003366;
+}
+
+.Campos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	border: thin dashed #999999;
+}
+.Bold_Campos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+	border: thin dashed #999999;
+}
+
+.RespConsul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+}
+
+.requerido {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	font-weight: bold;
+}
+.txtpequeño {
+	font-family: "Courier New", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003366;
+	text-transform: none;
+	line-height: 2mm;
+}
+.txtTablas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.txtTablas_10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.TituBlancoTablas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.TituTablas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+.TituBlancoTablas_10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.LinksMenuBlancos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.txtBlancoPeque {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.txtHelp {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.TitulosPlanosHelp {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+}
+.TitularesItemHelp {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.WarningMessage{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF1010;
+}
+
+.celdaEditarTitulo {
+	background-color: #003366;
+	font-size: 11px
+}
+
+.celdaEditarCampo {
+	background-color: #EEEEEE;
+	text-align: left
+    font-size: 11px
+}
+
+.botonAzul {
+	font-style: normal;
+	background-color: #003366;
+	font-variant: normal;
+	font-weight: 200;
+	height: auto;
+	width: auto;
+	vertical-align: middle;
+	line-height: normal;
+	text-align: center;
+	color: white;
+	font-size: 9pt
+}
+
+
+.mensaje {
+	font-weight: lighter;
+	font-size: small
+	       
+}
+.mensaje0 {
+	color: black;
+	background-color: #ffcf31;
+	font-weight: bold
+}
+
+.SortingColumnHeader {
+	cursor: pointer
+}
+
+BODY{
+	BACKGROUND-COLOR: #FFFFFF;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+H1{
+    COLOR: #003366;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H2{
+    COLOR: #003366;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H3{
+    COLOR: #003366;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H4{
+    COLOR: #003366;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H5{
+    COLOR: #003366;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H6{
+    COLOR: #003366;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+TH {
+ color: #6060cc
+}
+
+.pie_pagina {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 9px;
+	color: #666666;
+	font-style: normal;
+	vertical-align: middle;
+	background-image: url(../images/logo-gretail_min.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 105px;
+	height: 14px;
+}
+
+.titulo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px; font-style: normal;
+	font-weight: bold; color: #660000}
+
+.titulo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+}
+.titulo3 {
+	font-family: Arial, Helvetica, sans-serif, "Courier New";
+	font-size: x-small;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url("../images/corner.gif");
+	background-repeat: no-repeat;
+	height: 24px;
+	vertical-align: middle;
+}
+.titulo3old {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #6898d0;
+}
+.titulo4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.titulo5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	font-weight: bold;
+	color: #cccccc;
+}
+
+.normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	color: #333333;
+	font-weight: normal;
+}
+.normals {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	color: #333333;
+	font-weight: normal;
+}
+.normal_disable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #666666;
+	font-weight: normal;
+	background-color: #EEEEEE;
+}
+
+.table_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small; font-style: normal;
+	font-weight: bold; color: white;
+	background-color: #6898d0
+}
+
+.big_table_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small; font-style: normal;
+	font-weight: bold; color: white;
+	background-color: #6898d0
+}
+
+
+.table_title_disable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; font-style: normal;
+	font-weight: bold; color: #666666;
+	background-color: #D3CDA9}
+
+.table_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small; font-style: normal;
+	font-weight: normal; color: #000000;
+	background-color: #c9d686
+}
+.bold_table_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small; font-style: normal;
+	font-weight: bold; color: #000000;
+	background-color: #c9d686
+}
+.table_content0 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small; font-style: normal;
+	font-weight: normal; color: #000000;
+	text-align: right;
+}
+
+.table_content1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small; font-style: normal;
+	font-weight: normal; color: #000000;
+	background-color: #f1f1f1;
+	text-align: right;
+}
+.table_contenth {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small; font-style: normal;
+	font-weight: normal; color: #000000;
+	background-color: #c8c8c8;
+	text-align: right;
+}
+
+.table_content2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small; font-style: normal;
+	font-weight: normal; color: #000000;
+	background-color: #f1f1f1
+}
+.table_content3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small; font-style: normal;
+	font-weight: normal; color: #000000;
+	background-color: #c8c8c8
+}
+
+.table_title_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px; font-style: normal;
+	font-weight: bold; color: #000000;
+	background-color: #EFEFEF
+}
+
+.table_content_checks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #EFEFEF
+}
+
+.normalRojo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000066;
+	font-weight: normal;
+}
+
+.celdagrisclaro {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #25358d;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #C8C8C8;
+	TEXT-DECORATION: none
+}
+.celdagrisoscuro {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #20308f;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #989898;
+	TEXT-DECORATION: none
+}
+
+.celdaclarita {
+	PADDING-LEFT: 5px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10px; 
+	COLOR: black; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #f8f8f8; 
+	TEXT-DECORATION: none
+}
+.celdaoscura {
+	PADDING-LEFT: 5px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10px; 
+	COLOR: black; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #e8e8e8; 
+	TEXT-DECORATION: none
+}
+
+.tool {
+	CURSOR: hand
+}
+
+TD.cal {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	BACKGROUND-COLOR: #f2f9ff
+}
+
+SELECT.month {
+	FONT-SIZE: 11px; 
+	WIDTH: 85px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif
+}
+
+INPUT.year {
+	FONT-SIZE: 11px; 
+	WIDTH: 30px; COLOR: #000000; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif
+}
+
+TD.calDaysColor {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	BACKGROUND-COLOR: #f04018
+}
+
+TD.calWeekend {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	BACKGROUND-COLOR: #f9aaba
+}
+
+TD.calBgColor {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	BACKGROUND-COLOR: #d3d3d3
+}
+
+.calBorderColor {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	BACKGROUND-COLOR: #000000
+}
+
+TD.calHighlightColor {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	BACKGROUND-COLOR: #a3b2cc
+}
+
+A.cal {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #313183; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	TEXT-DECORATION: none
+}
+
+A.cal:hover {
+	FONT-SIZE: 11px; 
+	COLOR: #ff8040; 
+	FONT-FAMILY: Arial, Helvetica, Sans-serif; 
+	TEXT-DECORATION: none
+}
+
+.cajas {
+	FONT-SIZE: 10px; 
+	COLOR: black; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: white
+}
+
+.encabezado_pagina {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 9px;
+	font-style: normal;
+	vertical-align: middle;
+	background-image: url(../images/bannerV2_a.jpg);
+	background-repeat: repeat-x;
+	background-position: right center;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 65px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 76px;
+}
+.logo_encabezado_pagina {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 9px;
+	font-style: normal;
+	vertical-align: middle;
+	background-image: url(../images/bannerV2_b.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 65px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 76px;
+}
+.borderTable{
+	margin-bottom: 1px;
+	border:1px solid #c2ceda;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	text-align: justify;
+	font-weight: bold;
+}
+.borderTable_s{
+	margin-bottom: 1px;
+	border:1px solid #c2ceda;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	text-align: justify;
+	font-weight: bold;
+	overflow:auto;
+	width:100%;
+	height:100%;
+}
+

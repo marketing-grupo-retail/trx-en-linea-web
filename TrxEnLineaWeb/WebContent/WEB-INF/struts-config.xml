@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+
+	<!-- Data Sources -->
+	<data-sources></data-sources>
+
+	<!-- Form Beans -->
+
+	<form-beans>
+		<form-bean name="userForm" type="com.asic.transacciones.forms.UserForm"></form-bean>
+		<form-bean name="AddressForm" type="com.asic.transacciones.forms.AddressForm"></form-bean>
+		<form-bean name="listarRechazosForm" type="com.asic.transacciones.forms.ListarRechazosForm"></form-bean>
+		<form-bean name="initModRechazosForm" type="com.asic.transacciones.forms.ModificarRechazoForm"></form-bean>
+		<form-bean name="headerRechazoForm" type="com.asic.transacciones.forms.HeaderRechazoForm"></form-bean>
+		<form-bean name="dynamicHashmapForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="string" type="java.util.ArrayList"/>
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/>    
+		</form-bean>
+		<form-bean name="dynamicITForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="it_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/> 
+           <form-property name="accion" type="java.lang.String"/>
+		</form-bean>
+		<form-bean name="dynamicDEForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="de_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/>  
+		</form-bean>
+		<form-bean name="dynamicDSForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="ds_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/>
+		</form-bean>
+		<form-bean name="dynamicELForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="el_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="dynamicIRForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="ir_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/>
+		</form-bean>
+		<form-bean name="dynamicMOForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="mo_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="dynamicOTForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="ot_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+    	   <form-property name="accion" type="java.lang.String"/>
+		</form-bean>
+		<form-bean name="dynamicPCForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="pc_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="dynamicSCForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="sc_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+     		<form-property name="accion" type="java.lang.String"/>
+		</form-bean>
+		<form-bean name="dynamicTXForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="tx_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/>
+		</form-bean>
+		<form-bean name="dynamicTNForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="tn_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="dynamicTCForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="tc_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="dynamicTSForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="ts_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="dynamicUDForm" type="org.apache.struts.validator.DynaValidatorForm">    
+		   <form-property name="ud_string" type="java.util.ArrayList"/>       
+		   <form-property name="seccion" type="java.lang.String"/>      
+		   <form-property name="comentario" type="java.lang.String"/>
+		   <form-property name="accion" type="java.lang.String"/> 
+		</form-bean>
+		<form-bean name="reporteTrxForm" type="com.grpretail.trxonline.forms.ReporteTrxForm">
+		</form-bean>
+		<!--Informacion vinculacion 
+		<form-bean name="infoVinculacionForm" type="com.asic.encuestas.forms.InformacionVinculacionForm"></form-bean>
+		-->
+	</form-beans>
+
+	<!-- Global Exceptions -->
+	<global-exceptions></global-exceptions>
+
+	<!-- Global Forwards -->
+	<!-- ReenvÃƒÂ­os globales -->
+	<global-forwards>
+		<forward name="generic.error" path="/_errors/internal_error.jsp"></forward>
+
+		<!--
+			<forward name="service.error" path="common.mensaje">
+			</forward>	
+			<forward name="home" path="/index.htm">	
+			</forward>	
+			<forward name="global.redirect" path="/welcome/redirect.jsp">	
+			</forward>-->
+	</global-forwards>
+
+	<!-- Action Mappings -->
+
+	<action-mappings>
+		<action name="userForm" path="/admin_usuario/crear_usuario" scope="request" type="com.asic.transacciones.actions.CrearUsuarioAction" input="/admin_usuario/crear_usuario.jsp" validate="true">
+			<forward name="crear_usuario.success" path="t_admin_usuario.crear_usuario"></forward>
+			<forward name="crear_usuario.error" path="common.mensaje"></forward>
+			<forward name="generic.error" path="t_admin_usuario.crear_usuario"></forward>
+		</action>
+		<action path="/AddressJavascriptValidation" type="com.asic.transacciones.actions.AddressAction" name="AddressForm" scope="request" validate="true" input="/admin_usuario/AddressJavascriptValidation.jsp">
+			<forward name="success" path="t_admin_usuario.crear_usuario" />
+		</action>
+		<action name="listarRechazosForm" path="/listar_rechazos" scope="request" type="com.asic.transacciones.actions.ListarRechazosAction" validate="false">
+			<forward name="listar_rechazos.success" path="/paginas/listarRechazos.jsp"></forward>
+			<forward name="listar_rechazos.error" path="common.mensaje"></forward>
+			<forward name="generic.error" path="/paginas/listarRechazos.jsp"></forward>
+		</action>
+		<action name="listarRechazosForm" path="/init_modificar_rechazos" scope="request" type="com.asic.transacciones.actions.InitModificarRechazoAction" input="/listar_rechazos.do" validate="true">
+			<forward name="init_mod_rechazos.success" path="/paginas/adminRechazos/modificarRechazo.jsp"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+			
+		</action>
+		<action name="initModRechazosForm" path="/init_load_modificar_string" scope="request" type="com.asic.transacciones.actions.LoadStringAction" validate="false">
+			<forward name="init_header_rechazos.success" path="/init_header_rechazos.do"></forward>
+			<forward name="init_itementry_rechazos.success" path="/init_itementry_rechazos.do"></forward>
+			<forward name="init_dataentry_rechazos.success" path="/init_dataentry_rechazos.do"></forward>
+			<forward name="init_discount_rechazos.success" path="/init_discount_rechazos.do"></forward>
+			<forward name="init_exception_rechazos.success" path="/init_exception_rechazos.do"></forward>
+			<forward name="init_userdata_rechazos.success" path="/init_userdata_rechazos.do"></forward>
+			<forward name="init_modificar_string.error" path="/paginas/adminRechazos/blankRechazo.jsp"></forward>
+		</action>
+		<action name="initModRechazosForm" path="/load_modificar_string" scope="request" type="com.asic.transacciones.actions.LoadStringAction" validate="false">
+			<forward name="init_header_rechazos.success" path="/paginas/adminRechazos/headerRechazo.jsp"></forward>
+			<forward name="init_itementry_rechazos.success" path="/paginas/adminRechazos/itementryRechazo.jsp"></forward>
+			<forward name="init_dataentry_rechazos.success" path="/paginas/adminRechazos/dataEntryRechazo.jsp"></forward>
+			<forward name="init_discount_rechazos.success" path="/paginas/adminRechazos/discountRechazo.jsp"></forward>
+			<forward name="init_exception_rechazos.success" path="/paginas/adminRechazos/exceptionRechazo.jsp"></forward>
+			<forward name="init_userdata_rechazos.success" path="/paginas/adminRechazos/userdataRechazo.jsp"></forward>
+			<forward name="load_modificar_string.error" path="/paginas/adminRechazos/blankRechazo.jsp"></forward>
+		</action>
+		<action name="dynamicHashmapForm" path="/init_header_rechazos" scope="session" type="com.asic.transacciones.actions.HeaderRechazoAction" >
+			<forward name="init_header_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="init_string_rechazos.success" path="/init_load_modificar_string.do"></forward>
+			<forward name="enviar_string_rechazos.success" path="/modificar_rechazos.do"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		<action name="dynamicITForm" path="/init_itementry_rechazos" scope="session" type="com.asic.transacciones.actions.ItemEntryRechazoAction" >
+			<forward name="init_itementry_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="init_string_rechazos.success" path="/init_load_modificar_string.do"></forward>
+			<forward name="enviar_string_rechazos.success" path="/modificar_rechazos.do"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		<action name="dynamicDEForm" path="/init_dataentry_rechazos" scope="session" type="com.asic.transacciones.actions.DataEntryRechazoAction" >
+			<forward name="init_dataentry_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="init_string_rechazos.success" path="/init_load_modificar_string.do"></forward>
+			<forward name="enviar_string_rechazos.success" path="/modificar_rechazos.do"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		<action name="dynamicDSForm" path="/init_discount_rechazos" scope="session" type="com.asic.transacciones.actions.DiscountRechazoAction" >
+			<forward name="init_discount_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="init_string_rechazos.success" path="/init_load_modificar_string.do"></forward>
+			<forward name="enviar_string_rechazos.success" path="/modificar_rechazos.do"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		<action name="dynamicELForm" path="/init_exception_rechazos" scope="session" type="com.asic.transacciones.actions.ExceptionRechazoAction" >
+			<forward name="init_exception_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="init_string_rechazos.success" path="/init_load_modificar_string.do"></forward>
+			<forward name="enviar_string_rechazos.success" path="/modificar_rechazos.do"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		
+		<action name="dynamicUDForm" path="/init_userdata_rechazos" scope="session" type="com.asic.transacciones.actions.UserDataRechazoAction" >
+			<forward name="init_userdata_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="init_string_rechazos.success" path="/init_load_modificar_string.do"></forward>
+			<forward name="enviar_string_rechazos.success" path="/modificar_rechazos.do"></forward>
+			<forward name="init_mod_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		<action name="initModRechazosForm" path="/modificar_rechazos" scope="request" type="com.asic.transacciones.actions.ModificarRechazosAction" >
+			<forward name="modificar_rechazos.success" path="/load_modificar_string.do"></forward>
+			<forward name="modificar_rechazos.error" path="common.mensaje"></forward>
+		</action>
+		<!-- APSM: Inicio reportes -->
+		<action	path="/reportes/reporte_trxs" name="reporteTrxForm" scope="request" validate="false" type="com.grpretail.trxonline.actions.ReporteTrxsAction">	
+			<forward name="reporte_trxs.success" path="/reportes/body_reporte_trxs.jsp" >	
+			</forward>	
+			<forward name="reporte_trxs.error" path="common.mensaje">	
+			</forward>
+		</action>
+		<action	path="/reportes/detalle_reporteTrxs" name="reporteTrxForm" scope="request" validate="false" type="com.grpretail.trxonline.actions.DetalleReporteTrxsAction">	
+			<forward name="detalle_reporteTrxs.success" path="/reportes/body_detalleReporteTrxs.jsp" >	
+			</forward>	
+			<forward name="detalle_reporteTrxs.error" path="common.mensaje">	
+			</forward>
+		</action>
+		<!-- Fin reportes -->
+						
+	</action-mappings>
+	<controller processorClass="com.asic.frk.control.MainRequestProcessor" bufferSize="4096" contentType="text/html" debug="1" />
+
+	<!-- Message Resources -->
+	<message-resources parameter="com.asic.framework.resources.ApplicationResources" />
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="moduleAware" value="true" />
+	</plug-in>
+
+	<!-- Validator Configuration -->
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames" value="/WEB-INF/validator-rules.xml,
+                         /WEB-INF/validation.xml" />
+	</plug-in>
+</struts-config>

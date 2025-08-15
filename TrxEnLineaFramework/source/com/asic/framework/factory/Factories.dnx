@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="142fc6c7-0104-ed25-2530-ac14026faa77" version="8">
+  <Diagram DiagramId="142fc6c8-0104-f285-498c-ac14026faa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="142ff058-0104-e9e0-4c7b-ac14026faa77" sourceConnectors="1430042e-0104-e318-2891-ac14026faa77 143035b3-0104-fb07-1675-ac14026faa77" targetConnectors="14300cd2-0104-e50b-77ed-ac14026faa77 14301d39-0104-f354-40f6-ac14026faa77 144f32a9-0104-f599-1c88-ac14026faa77" PositionX="14600" PositionY="4775" ExtentX="7150" ExtentY="2825" Autosize="false" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})" Name="AbstractBusinessDelegateFactory" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="142ff067-0104-f815-7b28-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})" Name="AbstractBusinessDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="142ff077-0104-e6e3-4f3a-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})" Name="AbstractBusinessDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="142ff078-0104-ec43-617e-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})" Name="AbstractBusinessDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="142ff086-0104-e64b-7827-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})" Name="AbstractBusinessDelegateFactory" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="142ffb35-0104-fe90-5601-ac14026faa77" sourceConnectors="1430043d-0104-f520-379a-ac14026faa77" targetConnectors="14300cce-0104-e322-3ea9-ac14026faa77" PositionX="6600" PositionY="7000" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})" Name="BusinessDelegateFactory_Imp" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="142ffb36-0104-fb57-62bb-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})" Name="BusinessDelegateFactory_Imp" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="142ffb37-0104-fc6a-6be1-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})" Name="BusinessDelegateFactory_Imp" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="142ffb38-0104-e1c9-73c3-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})" Name="BusinessDelegateFactory_Imp" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="142ffb39-0104-e2dc-7db9-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})" Name="BusinessDelegateFactory_Imp" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="1430041e-0104-ef83-2c6e-ac14026faa77" targetConnectors="1430042e-0104-e318-2891-ac14026faa77 1430043d-0104-f520-379a-ac14026faa77" PositionX="15350" PositionY="825" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory})" Name="BusinessDelegateFactory" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="1430041f-0104-f096-3a75-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory})" Name="BusinessDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300420-0104-f859-43b1-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory})" Name="BusinessDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="14300421-0104-f96c-4b7f-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory})" Name="BusinessDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="14300422-0104-f633-554f-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory})" Name="BusinessDelegateFactory" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="1430042e-0104-e318-2891-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="142ff058-0104-e9e0-4c7b-ac14026faa77" target="1430041e-0104-ef83-2c6e-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="76"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="1430042f-0104-e42b-4e7d-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="76"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14300430-0104-e727-6a9e-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="76"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300431-0104-e83b-74a7-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="76"/>
+        </children>
+      </Labels>
+      <BendPoints x="-6" y="-50"/>
+      <BendPoints x="14" y="119"/>
+      <BendPoints x="-16" y="-128"/>
+      <BendPoints x="4" y="41"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="1430043d-0104-f520-379a-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="142ffb35-0104-fe90-5601-ac14026faa77" target="1430041e-0104-ef83-2c6e-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="125"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="1430043e-0104-f1e6-435a-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="125"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="1430043f-0104-f2fa-4e31-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="125"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300440-0104-fabc-581c-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="125"/>
+        </children>
+      </Labels>
+      <Labels Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14300441-0104-fbcf-63f3-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory}))" Name="" Kind="125"/>
+      </Labels>
+      <BendPoints x="0" y="-78"/>
+      <BendPoints x="-313" y="205"/>
+      <BendPoints x="0" y="-171"/>
+      <BendPoints x="-313" y="112"/>
+      <BendPoints x="210" y="-247"/>
+      <BendPoints x="-103" y="36"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="14300cc9-0104-e20f-4ef8-ac14026faa77" sourceConnectors="14300cce-0104-e322-3ea9-ac14026faa77 14300cd2-0104-e50b-77ed-ac14026faa77" targetConnectors="14301d3d-0104-f7a0-7e42-ac14026faa77" PositionX="6275" PositionY="12275" ExtentX="8175" ExtentY="3775" Autosize="false" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})" Name="BusinessDelegateFactoryAdapter" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14300cca-0104-fed5-5cd5-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})" Name="BusinessDelegateFactoryAdapter" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300ccb-0104-ffe9-6603-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})" Name="BusinessDelegateFactoryAdapter" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="14300ccc-0104-e548-6dcc-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})" Name="BusinessDelegateFactoryAdapter" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="14300ccd-0104-e65b-777a-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})" Name="BusinessDelegateFactoryAdapter" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="14300cce-0104-e322-3ea9-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="14300cc9-0104-e20f-4ef8-ac14026faa77" target="142ffb35-0104-fe90-5601-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp}))" Name="" Kind="76"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300ccf-0104-e435-4a07-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp}))" Name="" Kind="76"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14300cd0-0104-e731-54ad-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp}))" Name="" Kind="76"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300cd1-0104-e844-5ebf-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactory_Imp}))" Name="" Kind="76"/>
+        </children>
+      </Labels>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="14300cd2-0104-e50b-77ed-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="14300cc9-0104-e20f-4ef8-ac14026faa77" target="142ff058-0104-e9e0-4c7b-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300cd3-0104-e61e-03b1-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14300cd4-0104-eb7e-0e87-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14300cd5-0104-ec91-1885-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+        </children>
+      </Labels>
+      <Labels Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14300cd6-0104-e957-24b0-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+      </Labels>
+      <BendPoints x="156" y="0"/>
+      <BendPoints x="-156" y="319"/>
+      <BendPoints x="231" y="0"/>
+      <BendPoints x="-81" y="319"/>
+      <BendPoints x="299" y="-270"/>
+      <BendPoints x="-13" y="49"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="14301d34-0104-edf4-33bd-ac14026faa77" sourceConnectors="14301d39-0104-f354-40f6-ac14026faa77 14301d3d-0104-f7a0-7e42-ac14026faa77 143035b7-0104-ff54-572e-ac14026faa77" PositionX="1275" PositionY="6350" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})" Name="ServiceLocator" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14301d35-0104-ef08-4192-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})" Name="ServiceLocator" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14301d36-0104-ebce-4ac3-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})" Name="ServiceLocator" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="14301d37-0104-ece1-528e-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})" Name="ServiceLocator" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="14301d38-0104-f241-5c37-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})" Name="ServiceLocator" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="14301d39-0104-f354-40f6-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="14301d34-0104-edf4-33bd-ac14026faa77" target="142ff058-0104-e9e0-4c7b-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14301d3a-0104-f01b-4c2f-ac14026faa77" FromLine="-7" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14301d3b-0104-f12e-5746-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14301d3c-0104-f68d-611b-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="58" y="-31"/>
+      <BendPoints x="-544" y="33"/>
+      <BendPoints x="83" y="-43"/>
+      <BendPoints x="-519" y="21"/>
+      <BendPoints x="419" y="-43"/>
+      <BendPoints x="-183" y="21"/>
+      <BendPoints x="448" y="-43"/>
+      <BendPoints x="-154" y="21"/>
+      <BendPoints x="474" y="-47"/>
+      <BendPoints x="-128" y="17"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="14301d3d-0104-f7a0-7e42-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="14301d34-0104-edf4-33bd-ac14026faa77" target="14300cc9-0104-e20f-4ef8-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14301d3e-0104-f467-0992-ac14026faa77" FromLine="-15" FromEnd="57" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="14301d3f-0104-f57a-1428-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="14301d40-0104-fd3d-1e99-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.BusinessDelegateFactoryAdapter}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="0" y="51"/>
+      <BendPoints x="-298" y="-204"/>
+      <BendPoints x="0" y="255"/>
+      <BendPoints x="-298" y="0"/>
+      <BendPoints x="141" y="255"/>
+      <BendPoints x="-157" y="0"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="143035ae-0104-f80b-1295-ac14026faa77" targetConnectors="143035b3-0104-fb07-1675-ac14026faa77 143035b7-0104-ff54-572e-ac14026faa77 144f32bc-0104-e7a1-6a6b-ac14026faa77" PositionX="1300" PositionY="50" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider})" Name="ServiceProvider" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="143035af-0104-f91e-209a-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider})" Name="ServiceProvider" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="143035b0-0104-fc1a-29bd-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider})" Name="ServiceProvider" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="143035b1-0104-fd2d-3177-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider})" Name="ServiceProvider" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="143035b2-0104-f9f4-3b24-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider})" Name="ServiceProvider" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="143035b3-0104-fb07-1675-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="142ff058-0104-e9e0-4c7b-ac14026faa77" target="143035ae-0104-f80b-1295-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="143035b4-0104-e067-21cb-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="143035b5-0104-e17a-2c5e-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="143035b6-0104-fe40-366a-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.AbstractBusinessDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="-128" y="0"/>
+      <BendPoints x="471" y="205"/>
+      <BendPoints x="-524" y="0"/>
+      <BendPoints x="75" y="205"/>
+      <BendPoints x="-587" y="-172"/>
+      <BendPoints x="12" y="33"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="143035b7-0104-ff54-572e-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="14301d34-0104-edf4-33bd-ac14026faa77" target="143035ae-0104-f80b-1295-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="143035b8-0104-e4b3-6297-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="143035b9-0104-e5c6-6d04-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="143035ba-0104-e28d-76d0-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceLocator})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="5" y="-51"/>
+      <BendPoints x="-24" y="229"/>
+      <BendPoints x="25" y="-247"/>
+      <BendPoints x="-4" y="33"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="144f31cf-0104-e0d6-03a4-ac14026faa77" sourceConnectors="144f32a9-0104-f599-1c88-ac14026faa77 144f32bc-0104-e7a1-6a6b-ac14026faa77" PositionX="18550" PositionY="10900" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})" Name="ApplicationDelegateFactory" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="144f31d0-0104-e3d2-2eab-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})" Name="ApplicationDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="144f31d1-0104-e4e5-37d5-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})" Name="ApplicationDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="144f31d2-0104-e1ac-3fab-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})" Name="ApplicationDelegateFactory" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="144f31d3-0104-e2bf-495b-ac14026faa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})" Name="ApplicationDelegateFactory" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="144f32a9-0104-f599-1c88-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="144f31cf-0104-e0d6-03a4-ac14026faa77" target="142ff058-0104-e9e0-4c7b-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="144f32aa-0104-f260-27df-ac14026faa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="144f32b9-0104-e468-3282-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="144f32ba-0104-e12e-3cca-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+        </children>
+      </Labels>
+      <Labels Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="144f32bb-0104-e241-488d-ac14026faa77">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.AbstractBusinessDelegateFactory}))" Name="" Kind="125"/>
+      </Labels>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="144f32bc-0104-e7a1-6a6b-ac14026faa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="144f31cf-0104-e0d6-03a4-ac14026faa77" target="143035ae-0104-f80b-1295-ac14026faa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="144f32bd-0104-e8b4-75bc-ac14026faa77" FromLine="-25" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="144f32be-0104-e57b-0093-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="144f32bf-0104-e68e-0a78-ac14026faa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerDelegateImp}{%com.asic.framework.factory.ApplicationDelegateFactory})(~jclass{!pid%FileManagerFramework}{%com.asic.framework.factory.ServiceProvider}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="0" y="-87"/>
+      <BendPoints x="761" y="401"/>
+      <BendPoints x="0" y="-516"/>
+      <BendPoints x="761" y="-28"/>
+      <BendPoints x="-532" y="-516"/>
+      <BendPoints x="229" y="-28"/>
+      <BendPoints x="-700" y="-496"/>
+      <BendPoints x="61" y="-8"/>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

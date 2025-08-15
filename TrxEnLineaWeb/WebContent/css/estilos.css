@@ -1,0 +1,496 @@
+.txt_h1 {
+	COLOR: #313183;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	TEXT-TRANSFORM: capitalize
+}
+
+.txt_h2 {
+	COLOR: #313183;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	TEXT-TRANSFORM: capitalize
+}
+
+.txt_h3 {
+	FONT-SIZE: 14px;
+	COLOR: #313183;
+	FONT-STYLE:normal;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+}
+
+TH {
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	color: #313183
+}
+/*
+A {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #313183;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	TEXT-DECORATION: none;
+}
+*/
+.linksAyuda {
+	FONT-WEIGHT:normal;
+	FONT-SIZE: 12px;
+	COLOR: #5350B9;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	TEXT-DECORATION:underline;
+	CURSOR: hand;
+}
+/*
+A.link, A.visited {
+	text-decoration: none;
+}
+
+A.hover {
+	FONT-SIZE: 11px;
+	COLOR: #313183;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	text-decoration: underline;
+}
+*/
+.txtayuda {
+	FONT-SIZE: 12px;
+	COLOR: #313183;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: justify;
+}
+
+.txtmenus {
+	FONT-SIZE: 10px;
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none
+}
+
+.titulos {
+	FONT-SIZE: 18px;
+	COLOR: #CC3333;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+}
+
+.normal {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: #333333;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	background-color: #EEEEEE
+}
+
+.txtnormal {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #25358d;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none
+}
+
+.txtnormalblanco {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none
+}
+
+.txtnormalgris  {
+	PADDING-LEFT: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: normal;
+	color: #999999;
+}
+
+.subtitulos {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #bbbbbb;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none
+}
+
+.titulostablas {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #bbbbbb;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none
+}
+
+.celdaclarita {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #f8f8f8;
+	TEXT-DECORATION: none
+}
+
+.celdaoscura {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #e8e8e8;
+	TEXT-DECORATION: none
+}
+
+.tablaadmin{
+	border: 0px;
+}
+
+.celdafondo {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #25358d;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #8c98c6;
+	TEXT-DECORATION: none
+}
+
+.botones {
+	BORDER-RIGHT: thin outset;
+	BORDER-TOP: thin outset;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: thin outset;
+	COLOR: black;
+	BORDER-BOTTOM: thin outset;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #d0d0c8;
+	TEXT-ALIGN: center
+}
+
+.botonesLista {
+	BORDER-RIGHT: thin outset;
+	BORDER-TOP: thin outset;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 9px;
+	BORDER-LEFT: thin outset;
+	COLOR: #f04018;
+	BORDER-BOTTOM: thin outset;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #d0d0c8;
+	TEXT-ALIGN: center
+}
+
+.emergente {
+	FONT-SIZE: 10px;
+	CURSOR: hand;
+	COLOR: #000077;
+	BORDER-TOP-STYLE: solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BORDER-RIGHT-STYLE: solid;
+	BORDER-LEFT-STYLE: solid;
+	BACKGROUND-COLOR: #ffffec;
+	BORDER-BOTTOM-STYLE: solid
+}
+
+.sinborde {
+	FONT-SIZE: 10px;
+	CURSOR: hand;
+	COLOR: #25358d;
+	BORDER-TOP-STYLE: none;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BACKGROUND-COLOR: #ffffec;
+	BORDER-BOTTOM-STYLE: none
+}
+
+.textdisabled {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #000077;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	BACKGROUND-COLOR: #e0e8e0;
+	FONT-VARIANT: normal
+}
+
+.tool {
+	CURSOR: hand
+}
+
+.txterror {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #982929;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none
+}
+
+.botones2 {
+	BORDER-RIGHT: thin outset;
+	BORDER-TOP: thin outset;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: thin outset;
+	COLOR: black;
+	BORDER-BOTTOM: thin outset;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #d0d0c8;
+	TEXT-ALIGN: center
+}
+
+.disabled {
+	FONT-SIZE: 10px;
+	COLOR: black;
+	FONT-FAMILY: Arial, Helvetica, Sans-serif;
+	TEXT-DECORATION: none;
+	background-color: #e6e6e6;
+	font-style: italic
+}
+
+.celdagrisclaro {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #25358d;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #C8C8C8;
+	TEXT-DECORATION: none
+}
+
+.celdagrisoscuro {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #20308f;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #989898;
+	TEXT-DECORATION: none
+}
+
+.titulostablas1 {
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #BC0604;
+	TEXT-ALIGN: center;
+}
+
+.mensaje {
+	color: black;
+	background-color: #FFFFFF;
+	font-size: 9pt
+}
+
+/*
+A {
+	color: blue;
+	font-family: Arial, serif;
+	font-size: 7pt;
+	font-variant: normal;
+	text-transform: lowercase
+}
+*/
+.resaltado {
+	font-weight: bold;
+	text-decoration: blink;
+	text-align: right;
+	color: red
+}
+
+.TitulosPlanos {
+	font-family: "Courier New", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+
+.TituBlancoTablas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	background-color: #4b4b4b;
+}
+
+.TituRojoTablas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	color: #3e0317;
+	/*TEXT-ALIGN: center;*/
+	TEXT-DECORATION: none;
+}
+
+/*Estilos CMS*/
+.fondoCeldaCMS {
+	background-image: url("../images/fondoSubpanel.gif");
+/*	background-image: url(../images/personalizacion/bg_btn.jpg);*/
+	height: 15px;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #333366;
+}
+
+.fondoSinBarra {
+	background-COLOR: #EBEFF5;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bolzzd;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.title {
+	background: #B4C5DA;
+	color: #20308f;
+	font-weight: bold;
+	font-size: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	padding: 3px 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #20308f;
+	letter-spacing: 2px
+}
+
+.bordeframe {
+
+	border: 1px solid #20308f;
+
+}
+
+.scrollCMS{
+	scrollbar-3dlight-color: #eeeeee;
+	scrollbar-arrow-color: #aaaaaa;
+	scrollbar-base-color: #cccccc;
+	scrollbar-darkshadow-color: #bbbbbb;
+	scrollbar-face-color: #dddddd;
+	scrollbar-highlight-color: #eeeeee;
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-track-color: #cccccc;
+	
+	
+}
+.tablaCMS {
+	border: hidden;
+	/*border-width:1px;
+	border-color: #E6ECF3;
+	*/
+}
+
+
+.botonCMS {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-size: xx-small;
+	background-color: #dddddd;
+	border: 1px solid #aaaaaa;
+	text-decoration: bold;
+	height: 17px;
+	padding: 0px;
+	
+}
+
+.comboCMS {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	background-color: #dddddd;
+	border: 1px solid #aaaaaa;
+	text-decoration: bold;
+	font-size: 9.0px;
+	
+		
+}
+#overlaybase {
+	z-index: 100;
+	background-color: #F2F5FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2600px;
+	opacity: .45;
+	filter: progid : DXImageTransform . Microsoft . Alpha(opacity=45);
+	-moz-opacity: .45;
+	display: none;
+}
+
+.filtro{ 
+	z-index: 100;
+	background-color: #F2F5FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2600px;
+	opacity: .45;
+	filter: progid : DXImageTransform . Microsoft . Alpha(opacity=45);
+	-moz-opacity: .45;
+}
+
+.overlay {
+	background-color: transparent;
+	border: 0px solid #333; /* required */
+	position: absolute;
+	top: 90px;
+	left: 60px;
+	width: 650px;
+	height: 560px;
+	z-index: 102;
+	padding: 0;
+	filter: progid : DXImageTransform . Microsoft . dropshadow(OffX=3, OffY=3, Color=' #3D4B5A ', Positive=' 1'); /* Dropshadow for IE */
+	
+}
+
+.fondobody{
+	background: buttonface; 
+}
+
+#header{
+	background-image: url("../images/personalizacion/cabezote.gif");
+	width: 800;
+	height: 139;
+	border:0px;
+}
+
+#barraheader{
+	border:0px;
+	padding: 0px;
+	max-height: 10px;
+	background-image: url("../images/personalizacion/barraheader.gif");
+	width: 800px;
+	height: 10px;
+	
+}
+
+.fondoSitio{
+	background: #333366; 
+}
+
+.tablalayout{
+	border:0px;
+	padding: 0px;
+	
+}

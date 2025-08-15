@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<websettings version="500">
+    <project-type>J2EE</project-type>
+    <webcontent>WebContent</webcontent>
+    <context-root>TrxEnLineaWeb</context-root>
+    <jsp-level>JSP 1.1</jsp-level>
+    <features/>
+    <lib-modules>
+        <lib-module>
+            <jar>TrxEnLineaBusinessLogic.jar</jar>
+            <project>TrxEnLineaBusinessLogic</project>
+        </lib-module>
+        <lib-module>
+            <jar>TrxEnLineaDelegateImp.jar</jar>
+            <project>TrxEnLineaDelegateImp</project>
+        </lib-module>
+        <lib-module>
+            <jar>TrxEnLineaFramework.jar</jar>
+            <project>TrxEnLineaFramework</project>
+        </lib-module>
+    </lib-modules>
+</websettings>

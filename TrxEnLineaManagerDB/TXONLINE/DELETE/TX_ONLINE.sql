@@ -1,0 +1,16 @@
+delete from TX_DATA_ENTRY;
+delete from TX_DISCOUNT;
+delete from TX_EXCEPTION_LOG;
+delete from TX_HEADER;
+delete from TX_ITEMENTRY;
+delete from TX_ITEM_RECORD_CHANGE;
+delete from TX_MANAGER_OVERRIDE;
+delete from TX_OPERATOR_TRAINING;
+delete from TX_PRICE_CHANGE;
+delete from TX_STORE_CLOSING;
+delete from TX_TAX;
+delete from TX_TENDER;
+delete from TX_TILL_CHANGE;
+delete from TX_TRADING_STAMPS;
+delete from TX_USER_DATA;
+delete from TX_RECHAZO;

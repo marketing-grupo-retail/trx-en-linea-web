@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form-validation>
+	<formset>
+		<!--AMUSR-->
+		<form name="userForm">
+			<field property="login" depends="required">
+				<arg0 key="prompt.login" />
+			</field>
+			<field property="nombre" depends="required">
+				<arg0 key="prompt.nombre" />
+			</field>
+		</form>
+
+		<!--rechazados-->
+		<form name="listarRechazosForm">
+			<field property="seleccion" depends="required" >
+				<arg0 key="ListarRechazosForm.seleccion" />
+			</field>
+		</form>
+		
+
+	</formset>
+</form-validation>
